@@ -1,2 +1,2 @@
-# galleries
+# Galleries
 Galleries module for RabbitCMS

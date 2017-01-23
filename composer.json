@@ -1,0 +1,31 @@
+{
+  "name": "rabbitcms/galleries",
+  "description": "Galleries module for RabbitCMS",
+  "authors": [
+    {
+      "name": "Kulyk Dmytro",
+      "email": "lnkvisitor.ts@gmail.com"
+    },
+    {
+      "name": "Dmytro Zhurakovskyi",
+      "email": "dmytro.zhurakovsky@gmail.com"
+    }
+  ],
+  "require": {
+    "rabbitcms/modules": "~0.1 | ~1.1",
+    "rabbitcms/backend": "^0.6.0 | ^0.4.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Database/Migrations/"
+    ],
+    "psr-4": {
+      "RabbitCMS\\Galleries\\": "src/"
+    }
+  },
+  "extra": {
+    "module": {
+      "providers": "RabbitCMS\\Galleries\\ModuleProvider"
+    }
+  }
+}
