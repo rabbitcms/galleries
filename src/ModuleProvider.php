@@ -14,6 +14,6 @@ class ModuleProvider extends BaseModuleProvider
      */
     protected function name(): string
     {
-        return 'backend';
+        return 'galleries';
     }
 }
