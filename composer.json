@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "rabbitcms/modules": "~0.1 | ~1.1",
-    "rabbitcms/backend": "^0.6.0 | ^0.4.0"
+    "rabbitcms/modules": "^1.2",
+    "rabbitcms/backend": "0.4.*"
   },
   "autoload": {
     "classmap": [
