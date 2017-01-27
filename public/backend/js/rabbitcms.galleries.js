@@ -12,6 +12,9 @@ define(["jquery"], function ($) {
                 ajax: {
                     url: tableSelector.data('link')
                 },
+                order: [
+                    [0, 'desc']
+                ],
                 columnDefs: [
                     {
                         targets: 'fixed',
