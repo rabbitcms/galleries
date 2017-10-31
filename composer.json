@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "rabbitcms/modules": "^1.2",
-    "rabbitcms/backend": "0.4.*"
+    "rabbitcms/modules": "^2.0",
+    "rabbitcms/backend": "0.5.*"
   },
   "autoload": {
     "classmap": [
@@ -25,7 +25,6 @@
   },
   "extra": {
     "module": {
-      "providers": "RabbitCMS\\Galleries\\ModuleProvider"
     }
   }
 }

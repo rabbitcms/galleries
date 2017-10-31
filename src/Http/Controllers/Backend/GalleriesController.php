@@ -3,15 +3,15 @@ declare(strict_types=1);
 
 namespace RabbitCMS\Galleries\Http\Controllers\Backend;
 
+use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\MassAssignmentException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Illuminate\Http\Exception\HttpResponseException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
-use Illuminate\View\View;
 use RabbitCMS\Backend\Annotation\Permissions;
+use RabbitCMS\Backend\Http\Controllers\Backend\Controller;
 use RabbitCMS\Backend\Support\Backend;
 use RabbitCMS\Galleries\DataProviders\GalleriesDataProvider;
 use RabbitCMS\Galleries\Entities\Gallery as GalleryEntity;
